@@ -1,6 +1,12 @@
 /* TAG as selector*/
 a{
     color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }
 
 body{
@@ -112,6 +118,8 @@ p{
     background-image: linear-gradient(#30e3cb,  #2bc4ad);
 }
 
-.bottom-text{
+.copyright-text{
     color: white;
+    font-size: 0.75rem;
+    margin-top: 30px;
 }
